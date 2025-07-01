@@ -128,6 +128,6 @@ class TrafficDetector:
 
 if __name__ == "__main__":
     detector = TrafficDetector()
-    input_video = r"C:\Users\IBRA\Desktop\wrong_way\wrongway.mp4"
-    output_video = r"C:\Users\IBRA\Desktop\wrong_way\output_wrongway.mp4"
+    input_video = 
+    output_video = 
     detector.process_video(input_video, output_video)
