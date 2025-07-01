@@ -191,6 +191,6 @@ class ParkingDetector:
 
 if __name__ == "__main__":
     detector = ParkingDetector()
-    input_video = r"C:\Users\IBRA\Desktop\New folder\parking.mp4"
-    output_video = r"C:\Users\IBRA\Desktop\New folder\output_parking.mp4"
+    input_video = 
+    output_video = 
     detector.process_video(input_video, output_video)
