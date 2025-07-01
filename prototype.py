@@ -17,9 +17,9 @@ from firebase_admin import credentials, db
 
 
 # Initialize Firebase
-cred = credentials.Certificate(r"D:\Apps\123m\roadapp-39643-firebase-adminsdk-fbsvc-2fa8a4eb80.json")
+cred = credentials.Certificate()
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://roadapp-39643-default-rtdb.firebaseio.com/'
+    'databaseURL': ''
 })
 
 def update_firebase_status(road, status):
@@ -31,11 +31,11 @@ esp32 = serial.Serial('COM7', 115200, timeout=1)
 CAR_CONFIDENCE_THRESHOLD = 0.5
 ACCIDENT_CONFIDENCE_THRESHOLD = 0.7
 
-model = YOLO(r"D:\Apps\123m\best.pt").to('cuda' if torch.cuda.is_available() else 'cpu')
+model = YOLO("best.pt").to('cuda' if torch.cuda.is_available() else 'cpu')
 
 with open(r"D:\Apps\123m\coco1.txt", "r") as file:
     class_list = file.read().splitlines()
-video_source = 'rtsp://tapocam:asdfg123@192.168.43.86:554/stream2?tcp'
+video_source = ''
 video = cv2.VideoCapture(video_source, cv2.CAP_FFMPEG)
 video_traffic = cv2.VideoCapture(video_source, cv2.CAP_FFMPEG)
 
