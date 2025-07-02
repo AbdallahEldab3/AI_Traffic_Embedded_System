@@ -48,3 +48,7 @@ Presented to local government authorities and regional leadership.
 Gained official permission to deploy and test the system on real urban roads under live traffic conditions.
 
 Demonstrated significant potential for reducing congestion, improving emergency response, and supporting data-driven urban planning.
+
+![1751322872545](https://github.com/user-attachments/assets/d242370e-2f2b-4939-986b-6283d12c19db)
+
+![1751322872662](https://github.com/user-attachments/assets/676c207b-8073-4e02-98af-04dcc106bcb4)
